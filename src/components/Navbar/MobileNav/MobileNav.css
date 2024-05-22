@@ -1,0 +1,44 @@
+.mobile-menu {
+  width: 100vw;
+  height: 100dvh;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99 !important;
+  opacity: 0;
+  box-shadow: 0 29px 80px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  transform: translateX(-100vw);
+}
+
+.mobile-menu-container {
+  width: 60vw;
+  height: 100dvh;
+  background-color: #342864;
+  padding: 2rem;
+}
+
+.mobile-menu.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.mobile-menu img {
+  margin-block: -4rem 0;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  margin-left: -2.25rem;
+}
+
+@media (max-width:769px) {
+  .mobile-menu {
+    display: block;
+  }
+}

@@ -1,0 +1,56 @@
+.experience-container {
+  /* margin: 4rem 0; */
+  position: relative;
+}
+
+.experience-container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.arrow-left,
+.arrow-right {
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--trio);
+  border-radius: 0.65rem;
+  border: 1.5px solid var(--trio);
+  background: var(--black);
+  position: absolute;
+  top: 55%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: -2rem;
+}
+.arrow-right {
+  right: -2rem;
+}
+
+@media (max-width: 1025px) {
+  .arrow-left {
+    left: 0;
+  }
+  .arrow-right {
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-container h5 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .arrow-left {
+    left: -1rem;
+  }
+  .arrow-right {
+    right: -1rem;
+  }
+}
