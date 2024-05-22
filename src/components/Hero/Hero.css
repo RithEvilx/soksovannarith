@@ -168,7 +168,7 @@
 
 @media (max-width: 1024px) {
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 2rem;
     height: 20px;
   }
@@ -176,19 +176,18 @@
 
 @media (max-width: 768px) {
   .hero-content h1 {
-    font-size: 2.15rem;
-    line-height: 2rem;
     margin: 40px 0;
   }
 }
 @media (max-width: 500px) {
   .hero-content h1 {
+    font-size: 1.35rem;
     margin-block: 35px;
   }
 }
 @media (max-width: 375px) {
   .hero-content h1 {
-    font-size: 1.325rem;
+    font-size: 1.25rem;
     line-height: 1.5rem;
   }
 }
