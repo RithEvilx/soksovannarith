@@ -35,9 +35,13 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                 Contact Me
               </a>
             </li>
-            <button className="contact-btn" onClick={() => {}}>
+            <a
+              href="mailto:sovannarith22317@gmail.com"
+              className="contact-btn"
+              onClick={() => {}}
+            >
               Hire Me
-            </button>
+            </a>
           </ul>
         </div>
       </div>

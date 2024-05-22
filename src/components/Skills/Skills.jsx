@@ -35,7 +35,7 @@ const Skills = () => {
             />
           </div>
         </div>
-        <span id="work_experience" style={{width:"100%", padding:"30px"}}></span>
+        <span id="work_experience" style={{width:"100%", padding:"40px"}}></span>
       </section>
     </>
   );

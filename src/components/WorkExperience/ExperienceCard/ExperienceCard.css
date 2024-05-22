@@ -13,9 +13,9 @@
 
 .live-demo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
+  gap: 20px;
 }
 
 .live-demo a {
@@ -27,6 +27,9 @@
   background-color: rgba(103, 81, 185, 0.5);
   border-radius: 0.3rem;
   padding: 0.4rem 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .live-demo a:hover {
   text-decoration: underline;

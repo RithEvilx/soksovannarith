@@ -12,7 +12,10 @@ export const SKILLS = [
   {
     title: "Backend",
     icon: "./assets/images/backend-icon.svg",
-    skills: [{ skill: "PHP", percentage: "50%" },{skill: "mySQL", percentage:"50%"}],
+    skills: [
+      { skill: "PHP", percentage: "50%" },
+      { skill: "mySQL", percentage: "50%" },
+    ],
   },
   {
     title: "Tools",
@@ -37,7 +40,10 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
   {
     title: "Google Gemini Clone",
-    url: "https://rithevilx.github.io/google-gemini/",
+    url: {
+      page: "https://rithevilx.github.io/google-gemini/",
+      github: "https://github.com/RithEvilx/google-gemini",
+    },
     img: "./assets/project-demo/google-gemini-demo.png",
     description: "This project build with react.js and google gemini's api.",
   },

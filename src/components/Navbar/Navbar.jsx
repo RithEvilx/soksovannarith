@@ -21,12 +21,14 @@ const Navbar = () => {
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img
-            className="logo"
-            src="./assets/images/logo.png"
-            alt="logo"
-            style={style}
-          />
+          <a href="#">
+            <img
+              className="logo"
+              src="./assets/images/logo.png"
+              alt="logo"
+              style={style}
+            />
+          </a>
           <ul>
             <li>
               <a href="#" className="menu-item">
@@ -48,7 +50,11 @@ const Navbar = () => {
                 Contact Me
               </a>
             </li>
-            <a href="mailto:sovannarith22317@gmail.com" className="contact-btn" onClick={() => {}}>
+            <a
+              href="mailto:sovannarith22317@gmail.com"
+              className="contact-btn"
+              onClick={() => {}}
+            >
               Hire Me
             </a>
           </ul>
