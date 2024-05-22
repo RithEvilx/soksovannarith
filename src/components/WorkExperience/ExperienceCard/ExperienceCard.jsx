@@ -5,7 +5,7 @@ const ExperienceCard = ({ details }) => {
   return (
     <div className="work-experience-card">
       <div className="live-demo">
-        <h6>({details.title})</h6>
+        <h2>{details.title}</h2>
         <a href={details.url} target="_blank">
           live demo
         </a>

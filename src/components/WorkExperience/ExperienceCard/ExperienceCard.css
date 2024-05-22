@@ -6,16 +6,16 @@
   margin: 0 1rem;
 }
 
-.work-experience-card h6 {
-  font-size: 1.05rem;
+.work-experience-card h2 {
+  font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 0.7rem;
 }
 
 .live-demo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .live-demo a {
