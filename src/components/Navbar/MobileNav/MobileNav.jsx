@@ -21,17 +21,17 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               </a>
             </li>
             <li>
-              <a href="#" className="menu-item">
+              <a href="#skills" className="menu-item">
                 Skills
               </a>
             </li>
             <li>
-              <a href="#" className="menu-item">
+              <a href="#work_experience" className="menu-item">
                 Work Experience
               </a>
             </li>
             <li>
-              <a href="#" className="menu-item">
+              <a href="#contact" className="menu-item">
                 Contact Me
               </a>
             </li>
