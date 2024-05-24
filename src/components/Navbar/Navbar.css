@@ -97,6 +97,7 @@
   cursor: pointer;
   transition: all 0.4s ease;
   display: none;
+  padding: 0;
 }
 
 .menu-btn:hover {
