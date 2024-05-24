@@ -84,3 +84,9 @@
     padding: 0;
   }
 }
+@media (max-width: 350px) {
+  .skills {
+      grid-template-columns: repeat(1, 1fr);
+
+  }
+}

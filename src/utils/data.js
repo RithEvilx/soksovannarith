@@ -5,7 +5,7 @@ export const SKILLS = [
     skills: [
       { skill: "HTML5", percentage: "80%" },
       { skill: "CSS3", percentage: "75%" },
-      { skill: "JavaScript", percentage: "65%" },
+      { skill: "Javascript", percentage: "65%" },
       { skill: "React.js", percentage: "60%" },
     ],
   },
@@ -14,7 +14,7 @@ export const SKILLS = [
     icon: "./assets/images/backend-icon.svg",
     skills: [
       { skill: "PHP", percentage: "50%" },
-      { skill: "mySQL", percentage: "50%" },
+      { skill: "MySQL", percentage: "50%" },
     ],
   },
   {
@@ -44,27 +44,57 @@ export const WORK_EXPERIENCE = [
       page: "https://rithevilx.github.io/google-gemini/",
       github: "https://github.com/RithEvilx/google-gemini",
     },
-    img: "./assets/project-demo/google-gemini-demo.png",
-    description: "This project build with react.js and google gemini's api.",
+    img: "./assets/project-pic/google-gemini.png",
+    description: [
+      "Following design from Google Gemini",
+      "Build with: React.js & Google Gemini's API",
+      "Responsiveness: 90%",
+    ],
   },
   {
-    title: "Coming Soon!-1",
-    url: "Coming Soon!",
-    description: "Coming Soon!",
+    title: "Sovannarith Camera Store",
+    url: {
+      page: "https://rithevilx.github.io/sovannarith-camera-store/",
+      github: "https://github.com/RithEvilx/sovannarith-camera-store",
+    },
+    img: "./assets/project-pic/camera-store.png",
+    description: [
+      "Last assignment (Ant Training Center)",
+      "Build with: HTML5 & CSS3",
+      "Responsiveness:  fixed-size(1140px)",
+    ],
   },
   {
-    title: "Coming Soon!-2",
-    url: "Coming Soon!",
-    description: "Coming Soon!",
+    title: "Car Shop",
+    url: {
+      page: "https://rithevilx.github.io/Shop-Car/",
+      github: "https://github.com/RithEvilx/Shop-Car",
+    },
+    img: "./assets/project-pic/car-shop.png",
+    description: [
+      "Finding your dream car",
+      "Build with: HTML5 & CSS3",
+      "Responsiveness: fixed-size(1140px)",
+    ],
   },
   {
-    title: "Coming Soon!-3",
-    url: "Coming Soon!",
-    description: "Coming Soon!",
+    title: "Ecommerce",
+    url: {
+      page: "https://react-ecommerce-cyan.vercel.app/",
+      github: "https://github.com/RithEvilx/web-react-ecommerce",
+    },
+    img: "./assets/project-pic/ecommerce.png",
+
+    description: [
+      "Ecommerce websites selling clothes",
+      "Build with: React.js",
+      "Responsiveness: 90%",
+    ],
   },
   {
-    title: "Coming Soon!-4",
-    url: "Coming Soon!",
-    description: "Coming Soon!",
+    title: "Coming Soon!",
+    url: { page: "Coming Soon!", github: "Coming Soon!" },
+    img: "./assets/project-pic/",
+    description: ["Coming_Soon!", "Build with: null", "Responsiveness: null"],
   },
 ];
